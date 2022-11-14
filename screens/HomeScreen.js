@@ -17,6 +17,7 @@ import {
 } from "react-native-heroicons/outline";
 
 import Categories from "../components/Categories";
+import FeaturedRow from "../components/FeaturedRow";
 
 const HomeScreen = () => {
 	const navigation = useNavigation();
@@ -82,15 +83,33 @@ const HomeScreen = () => {
 				{/* Categories */}
 				<Categories />
 
+				<FeaturedRow
+					id="123"
+					title="Featured"
+					description="Get 50% off on your first order"
+				/>
+
+				<FeaturedRow
+					id="1234"
+					title="Tasty Discounts"
+					description="Get 50% off on your first order"
+				/>
+
+				<FeaturedRow
+					id="12345"
+					title="Offers Near You"
+					description="Get 50% off on your first order"
+				/>
+
 				{/* Featured */}
-				{featuredCategories?.map((category) => (
+				{/* {featuredCategories?.map((category) => (
 					<FeaturedRow
 						key={category._id}
 						id={category._id}
 						title={category.name}
 						description={category.short_description}
 					/>
-				))}
+				))} */}
 			</ScrollView>
 		</SafeAreaView>
 	);
