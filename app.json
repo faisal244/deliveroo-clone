@@ -1,7 +1,8 @@
 {
   "expo": {
     "name": "deliveroo-clone",
-    "slug": "deliveroo-clone",
+    "owner": "faisal244",
+    "slug": "react-native-deliveroo-clone",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,16 +19,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.faisal244.reactnativedeliverooclone"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.faisal244.reactnativedeliverooclone"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4533a3f4-d423-4d85-9d40-a78bc09f03a9"
+      }
     }
   }
 }
