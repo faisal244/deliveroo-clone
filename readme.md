@@ -36,17 +36,25 @@ Deliveroo Clone with REACT NATIVE! (Navigation, Redux, Tailwind CSS & Sanity.io)
  <img align="center" alt="React"  width="180" src="https://user-images.githubusercontent.com/99184393/184466112-3d639a7d-e292-43f1-96ff-0d7506be7d5a.jpg">
   <img align="center" alt="React"  width="180" src="https://user-images.githubusercontent.com/99184393/184466143-c95e743f-eff5-4acf-ad9d-4f33142ca088.jpg">
   <img align="center" alt="React"  width="180" src="https://user-images.githubusercontent.com/99184393/184466211-d27ca927-7a3f-4a36-8920-3d7d62e7ab29.jpg">
-    <img align="center" alt="React"  width="180" src="">
+    <img align="center" alt="React"  width="180" src="./assets/screenshot-waiting.PNG">
+    <img align="center" alt="React"  width="180" src="./assets/screenshot-order-tracking.PNG">
 </div>
 
 <br />
 
 ![](https://img.shields.io/badge/Deliveroo-00CCBC?style=for-the-badge&logo=Deliveroo&logoColor=white)
 
-#### 🔴 Open the camera app on your device and scan the code below (live demo)
+#### 🔴 Download an IOS build to run locally on your machine by clicking on the phone below:
 
-<a href="#expo-qr"><img src="./qr/expo-go.svg" alt="qr" width="200" height="200" /></a>
-<a href="#expo"><img src="https://user-images.githubusercontent.com/99184393/182557606-b36f2540-1260-42bf-b547-ed5832e3615e.png" alt="qr" width="200" height="200" /></a>
+<!-- <a href="#expo-qr"><img src="./qr/expo-go.svg" alt="qr" width="200" height="200" /></a> -->
+
+<a href="./assets/deliveroo-clone-ios.app"><img src="https://user-images.githubusercontent.com/99184393/182557606-b36f2540-1260-42bf-b547-ed5832e3615e.png" alt="qr" width="200" height="200" /></a>
+
+<br />
+
+#### 🔴 Download an Android build to run locally on your machine by clicking on the phone below:
+
+<a href="./assets/deliveroo clone android build application-2c73a45d-5058-4770-a5f3-a67593363d6d.aab"><img src="https://user-images.githubusercontent.com/99184393/182557606-b36f2540-1260-42bf-b547-ed5832e3615e.png" alt="qr" width="200" height="200" /></a>
 
 <br />
 
@@ -112,7 +120,7 @@ Clone the project
 change directory
 
 ```bash
-  cd Deliveroo-Clone
+  cd deliveroo-clone
 ```
 
 Install dependencies
@@ -129,19 +137,10 @@ Start the server
 
 <hr />
 
-### Creating a Build
-
-- Optimize the assets for speed - `npx expo-optimize` (formerly expo optimize)
-- Bundle the project for production - `npx expo export:web` (`expo build:web` in the legacy Expo CLI).
-- Creates a production ready static bundle in the `web-build/` directory. Don't edit this folder directly.
-- If you make any changes to your project, you'll need to re-build for production.
-- For more help use `npx expo export:web --help`
-- <a href="https://docs.expo.dev/eas" target="_blank">More Info</a>
-
 ## :handshake: Contact
 
-Faisal Mohammed - [LinkedIn](https://linkedin.com/faisal244) -
+- Contact me by Email: [m.faisal244@gmail.com](mailto:m.faisal244@gmail.com)
 
-Email - m.faisal244@gmail.com
+- [Connect with me on linkedin](https://www.linkedin.com/in/faisal244/)
 
-Project Link: [git@github.com:faisal244/deliveroo-clone.git](git@github.com:faisal244/deliveroo-clone.git)
+- [View my Portfolio](https://faisal244.github.io/react-portfolio/)
