@@ -93,76 +93,6 @@ Deliveroo Clone with REACT NATIVE! (Navigation, Redux, Tailwind CSS & Sanity.io)
 
 ### :bangbang: Prerequisites
 
-- Install Node JS on your computer <a href='https://nodejs.org/en/'>HERE</a>
-
-### :gear: Installation
-
-![](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-
-Install my-project with expo
-
-![](https://img.shields.io/badge/Expo-02569B?style=for-the-badge&logo=Expo&logoColor=white)
-
-Installing Expo CLI
-
-```
-npm install --global expo-cli
-```
-
-Initializing the project
-
-```
-npx create-expo-app deliveroo-clone
-```
-
-```
-cd deliveroo-clone
-```
-
-Install dependencies
-
-### Setup Tailwind CSS
-
-![](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-
-```
-npm install tailwindcss-react-native
-npm install --save-dev tailwindcss
-```
-
-Tailwindcss requires a `tailwind.config.js` file with the content section configured to include the paths to all of your components and any other source files that contain Tailwind class names.
-
-```
-// tailwind.config.js
-module.exports = {
-  content: [
-    "./screens/**/*.{js,ts,jsx,tsx}",
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
-  ],
-  // ...
-};
-```
-
-Add `TailwindProvider` at the top level of your application. The `TailwindProvider` creates the context for reactive styles and the atomic style objects.
-
-```
-import { TailwindProvider } from "tailwindcss-react-native";
-
-function MyAppsProviders({ children }) {
-  return <TailwindProvider>{children}</TailwindProvider>;
-}
-```
-
-##### Configure your babel.config.js
-
-```
-// babel.config.js
-module.exports = {
-  plugins: ["tailwindcss-react-native/babel"],
-};
-```
-
 Install dependencies
 
 <a href="https://github.com/faisal244/deliveroo-clone/blob/main/package.json" target="_blank">🔶 Dependency Info</a>
@@ -176,7 +106,7 @@ Install dependencies
 Clone the project
 
 ```bash
-  git clone https://github.com/SashenJayathilaka/Deliveroo-Clone.git
+  git clone https://github.com/faisal244/deliveroo-clone.git
 ```
 
 change directory
@@ -207,22 +137,6 @@ Start the server
 - If you make any changes to your project, you'll need to re-build for production.
 - For more help use `npx expo export:web --help`
 - <a href="https://docs.expo.dev/eas" target="_blank">More Info</a>
-
-<!-- Deployment -->
-
-### :triangular_flag_on_post: Deployment
-
-To deploy this project run
-
-#### Expo Publish
-
-![](https://img.shields.io/badge/Expo-02569B?style=for-the-badge&logo=Expo&logoColor=white)
-
-publish your project
-
-```
-expo publish
-```
 
 ## :handshake: Contact
 
